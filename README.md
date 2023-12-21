@@ -4,7 +4,7 @@
 <b>Discipline | <b>Mathematics
 :--|:--|
 <b> Lab | <b> Linear Algebra Virtual Lab
-<b> Experiment|     <b> Linear Independence, Basis, Dimension and Coordinates
+<b> Experiment|     <b> Linear Independence, Basis, Dimension and Co-ordinates
 
 ### About the Experiment 
 
