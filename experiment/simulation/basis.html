@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/basis.css">
+</head>
+<style>
+    .previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+</style>
+<body>
+    <h2 class="pagehead">Basis, Dimension and Co-ordinates</h2>
+    <p style="margin-left: 1rem;">NOTE: Consider the vector space R<sup>2</sup> over R</p>
+    <div class="example">
+        <div class="excol">
+            <h3>I. Example</h3>
+            <p>(i) B = {(1, 0), (0, 1)} &#8838; R<sup>2</sup><br>
+                B is basis, dim R<sup>2</sup> = 2<br>
+                Coordinates of (a, b) are a and b w.r.t. the basis B<br>
+                In particular, coordinates of (1, 2) are 1 and 2 w.r.t. the basis B.
+            </p>
+            <p>(ii) B = {(1, 1), (1, 2)} &#8838; R<sup>2</sup><br>
+                B is basis, dim R<sup>2</sup> = 2<br>
+                Coordinates of (a, b) are a and b w.r.t. the basis B<br>
+                In particular, coordinates of (1, 2) are 0 and 1 w.r.t. the basis B.
+            </p>
+        </div>
+        <div class="excol">
+            <img src="images/bex1.png" alt="basis example" height="180vh" width="auto">
+        </div>
+        <div class="excol">
+            <img src="images/bex2.png" alt="basis example" height="180vh" width="auto">
+        </div>
+    </div>
+    <div class="cons">
+        <h3>II. Construction of basis of R<sup>2</sup></h3>
+        <div class="construction">
+            <div class="conscol">
+                <p>Choosing a &ne; 0</p>
+                <img src="images/bcons1.png" alt="basis">
+            </div>
+            <div class="conscol">
+                <p>Choosing b &notin; span({a})</p>
+                <img src="images/bcons2.png" alt="basis">
+            </div>
+            <div class="conscol">
+                <p><br><br><br>B = {a, b} is basis</p>
+            </div>
+        </div>
+    </div>
+    <div class="check">
+        <h3>III. Checking whether a subset B of R<sup>2</sup> is a basis or not?</h3>
+        <div class="checkcondition">
+            <div class="ckcol">
+                <h4>Step 1:</h4>
+                <p class="checkblock">If 0 &isin; B, <strong>B is not a basis</strong><br>
+                If 0 &notin; B, go to Step 2</p>
+            </div>
+            <div class="ckcol">
+                <h4>Step 2:</h4>
+                <p>(i) If B = {a}, B is basis? <input id="btn1" type="submit" onclick="ck21y('btn1'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn2.style.backgroundColor = 'lightgrey'; " value="Yes"> / <input id="btn2" type="submit" onclick="ck21n('btn2'); this.style.backgroundColor = 'green'; btn1.style.backgroundColor = 'lightgrey'; this.style.color = '#FFF';"value="No"></p>
+                <p id="ck21y"></p>
+                <p id="ck21n"></p>
+                <p>(ii) If B = {a, b, c}, B is basis? <input id="btn3" type="submit" onclick="ck22y('btn3'); this.style.backgroundColor = 'green'; this.style.color = '#FFF'; btn4.style.backgroundColor = 'lightgrey';" value="Yes"> / <input id="btn4" type="submit" onclick="ck22n('btn4'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn3.style.backgroundColor = 'lightgrey';" value="No"></p>
+                <p id="ck22y"></p>
+                <p id="ck22n"></p>
+                <p>(iii) If |B| &ne; 2, B is basis? <input id="btn5" type="submit" onclick="ck23y('btn5'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn6.style.backgroundColor = 'lightgrey';" value="Yes"> / <input id="btn6" type="submit" onclick="ck23n('btn6'); this.style.backgroundColor = 'green'; this.style.color = '#FFF'; btn5.style.backgroundColor = 'lightgrey';" value="No"></p>
+                <p id="ck23y"></p>
+                <p id="ck23n"></p>
+
+                <input id="btn7" class="rsnbtn" type="submit" onclick="reason('btn7'); this.style.backgroundColor = 'yellow'; this.style.color = '#000';" value="REASON">
+                <p id="reason"></p>
+            </div>
+            <div class="ckcol">
+                <h4>Step 3:</h4>
+                <p>If B = {a, b}, B may or may not be a basis<br><br>
+                    b &isin; Span({a}) &#8658; <strong>B is not basis</strong><br>
+                    b &notin; Span({a}) &#8658; <strong>B is basis</strong>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <p class="note">NOTE: Try it yourself for the vector space R<sup>n</sup> over R for some other values of n</p>
+    <p style="float: center; align-content:right;">
+            <a href="./" class="previous">&laquo; Previous</a>
+        </p>
+</body>
+<script src="js/basis.js"></script>
+</html>
