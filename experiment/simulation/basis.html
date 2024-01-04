@@ -37,7 +37,7 @@
             </p>
             <p>(ii) B = {(1, 1), (1, 2)} &#8838; R<sup>2</sup><br>
                 B is basis, dim R<sup>2</sup> = 2<br>
-                Coordinates of (a, b) are a and b w.r.t. the basis B<br>
+                Coordinates of (a, b) are 2a-b and b-a w.r.t. the basis B<br>
                 In particular, coordinates of (1, 2) are 0 and 1 w.r.t. the basis B.
             </p>
         </div>
@@ -52,11 +52,11 @@
         <h3>II. Construction of basis of R<sup>2</sup></h3>
         <div class="construction">
             <div class="conscol">
-                <p>Choosing a &ne; 0</p>
+                <p>Choose a &ne; 0</p>
                 <img src="images/bcons1.png" alt="basis">
             </div>
             <div class="conscol">
-                <p>Choosing b &notin; span({a})</p>
+                <p>Choose b &notin; span({a})</p>
                 <img src="images/bcons2.png" alt="basis">
             </div>
             <div class="conscol">
@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="check">
-        <h3>III. Checking whether a subset B of R<sup>2</sup> is a basis or not?</h3>
+        <h3>III. Checking whether a nonempty subset B of R<sup>2</sup> is a basis or not?</h3>
         <div class="checkcondition">
             <div class="ckcol">
                 <h4>Step 1:</h4>
@@ -77,7 +77,7 @@
                 <p>(i) If B = {a}, B is basis? <input id="btn1" type="submit" onclick="ck21y('btn1'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn2.style.backgroundColor = 'lightgrey'; " value="Yes"> / <input id="btn2" type="submit" onclick="ck21n('btn2'); this.style.backgroundColor = 'green'; btn1.style.backgroundColor = 'lightgrey'; this.style.color = '#FFF';"value="No"></p>
                 <p id="ck21y"></p>
                 <p id="ck21n"></p>
-                <p>(ii) If B = {a, b, c}, B is basis? <input id="btn3" type="submit" onclick="ck22y('btn3'); this.style.backgroundColor = 'green'; this.style.color = '#FFF'; btn4.style.backgroundColor = 'lightgrey';" value="Yes"> / <input id="btn4" type="submit" onclick="ck22n('btn4'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn3.style.backgroundColor = 'lightgrey';" value="No"></p>
+                <p>(ii) If B = {a, b, c}, B is basis? <input id="btn3" type="submit" onclick="ck22y('btn3'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn4.style.backgroundColor = 'lightgrey';" value="Yes"> / <input id="btn4" type="submit" onclick="ck22n('btn4'); this.style.backgroundColor = 'green'; this.style.color = '#FFF'; btn3.style.backgroundColor = 'lightgrey';" value="No"></p>
                 <p id="ck22y"></p>
                 <p id="ck22n"></p>
                 <p>(iii) If |B| &ne; 2, B is basis? <input id="btn5" type="submit" onclick="ck23y('btn5'); this.style.backgroundColor = 'red'; this.style.color = '#FFF'; btn6.style.backgroundColor = 'lightgrey';" value="Yes"> / <input id="btn6" type="submit" onclick="ck23n('btn6'); this.style.backgroundColor = 'green'; this.style.color = '#FFF'; btn5.style.backgroundColor = 'lightgrey';" value="No"></p>
