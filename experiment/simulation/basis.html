@@ -30,15 +30,19 @@
     <div class="example">
         <div class="excol">
             <h3>I. Example</h3>
-            <p>(i) B = {(1, 0), (0, 1)} &#8838; R<sup>2</sup><br>
-                B is basis, dim R<sup>2</sup> = 2<br>
-                Coordinates of (a, b) are a and b w.r.t. the basis B<br>
-                In particular, coordinates of (1, 2) are 1 and 2 w.r.t. the basis B.
+            <p><ol type=i ><li> B = {(1, 0), (0, 1)} &#8838; R<sup>2</sup></li></ol>
+                <ul >
+                    <li>B is basis, dim R<sup>2</sup> = 2</li>
+                    <li>Coordinates of (a, b) are a and b w.r.t. the basis B</li>
+                    <li>In particular, coordinates of (1, 2) are 1 and 2 w.r.t. the basis B.</li>
+                </ul>
             </p>
-            <p>(ii) B = {(1, 1), (1, 2)} &#8838; R<sup>2</sup><br>
-                B is basis, dim R<sup>2</sup> = 2<br>
-                Coordinates of (a, b) are 2a-b and b-a w.r.t. the basis B<br>
-                In particular, coordinates of (1, 2) are 0 and 1 w.r.t. the basis B.
+            <p><ol type="i" start = 2><li>B = {(1, 1), (1, 2)} &#8838; R<sup>2</sup></li></ol>
+                <ul>
+                <li>B is basis, dim R<sup>2</sup> = 2</li>
+                <li>Coordinates of (a, b) are 2a-b and b-a w.r.t. the basis B</li>
+                <li>In particular, coordinates of (1, 2) are 0 and 1 w.r.t. the basis B.</li>
+            </ul>
             </p>
         </div>
         <div class="excol">
@@ -52,15 +56,16 @@
         <h3>II. Construction of basis of R<sup>2</sup></h3>
         <div class="construction">
             <div class="conscol">
-                <p>Choose a &ne; 0</p>
+                
+                <p><ul><li>Choose a &ne; 0</li></ul></p>
                 <img src="images/bcons1.png" alt="basis">
             </div>
             <div class="conscol">
-                <p>Choose b &notin; span({a})</p>
+                <p><ul><li>Choose b &notin; span({a})</li></ul></p>
                 <img src="images/bcons2.png" alt="basis">
             </div>
             <div class="conscol">
-                <p><br><br><br>B = {a, b} is basis</p>
+                <p><br><br><br><ul><li>B = {a, b} is basis</li></ul></p>
             </div>
         </div>
     </div>
@@ -69,8 +74,8 @@
         <div class="checkcondition">
             <div class="ckcol">
                 <h4>Step 1:</h4>
-                <p class="checkblock">If 0 &isin; B, <strong>B is not a basis</strong><br>
-                If 0 &notin; B, go to Step 2</p>
+                <p class="checkblock"><ul><li>If 0 &isin; B, <strong>B is not a basis</strong></li>
+                <li>If 0 &notin; B, go to Step 2</li></ul></p>
             </div>
             <div class="ckcol">
                 <h4>Step 2:</h4>
@@ -89,15 +94,17 @@
             </div>
             <div class="ckcol">
                 <h4>Step 3:</h4>
-                <p>If B = {a, b}, B may or may not be a basis<br><br>
-                    b &isin; Span({a}) &#8658; <strong>B is not basis</strong><br>
-                    b &notin; Span({a}) &#8658; <strong>B is basis</strong>
+                <p><ul><li>If B = {a, b}, B may or may not be a basis<br></li>
+                    <li>b &isin; Span({a}) &#8658; <strong>B is not basis</strong><br>
+                    b &notin; Span({a}) &#8658; <strong>B is basis</strong></li>
+                </ul>
                 </p>
             </div>
         </div>
 
     </div>
-    <p class="note">NOTE: Try it yourself for the vector space R<sup>n</sup> over R for some other values of n</p>
+    <p class="note" style="background-color: lightyellow;">NOTE: Apply the method on various subsets of R<sup>2</sup></p>
+    <p class="note" style="color:darkblue; font-size: 1.5rem; border:1px solid darkblue;">NOTE: Try it yourself for the vector space R<sup>n</sup> over R for some other values of n</p>
     <p style="float: center; align-content:right;">
             <a href="./" class="previous">&laquo; Previous</a>
         </p>
