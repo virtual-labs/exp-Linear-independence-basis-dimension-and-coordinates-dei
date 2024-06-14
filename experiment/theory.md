@@ -22,10 +22,9 @@ Justification: a(1, 2)+b(1, 0)=(0, 0) ⇒ (a, 2b)+(b, 0)=(0, 0) ⇒ (a+b, 2b)=(0
 
 ### 5. Examples-II:
 (i) Consider the vector space R<sup>3</sup> over R. Then S={(1, 0, 0), (0, 1, 0), (0, 0, 1)} is linearly independent.
-Justification: By definition there exists α, β and γ such that α(1, 0, 0)+β(0, 1, 0)+γ(0, 0, 1)=0, by solving this we get, α=0, β=0, γ=0 which implies that S is linearly independent.<br>
+Justification: Let α(1, 0, 0)+β(0, 1, 0)+γ(0, 0, 1)=0; for α, β, γ&isin;R. By solving this we get α=0, β=0, γ=0 which implies by definition, that S is linearly independent.<br>
 (ii.) Consider the vector space P<sub>2</sub>(x) over R. Then S={1, x, x<sup>2</sup>+1} is linearly independent.
-Justification: By definition, there exist real numbers α, β and γ such that α(1)+β(x)+γ(x 2 +1)=0. By solving this we get, α=0, β=0, γ=0 which implies that S is linearly independent.
-
+Justification: Let α(1)+β(x)+γ(x2+1)=0; for α, β, γ&isin;R. By solving this we get α=0, β=0, γ=0 which implies by definition, that S is linearly independent.
 ### 6. Properties of linearly independent andb linearly dependent sets:
 (i) Any set containing the zero vector is linearly dependent. In particular, {0} is linearly dependent. <br>
 (ii) Singleton set containing a non-zero vector is linearly independent. <br>

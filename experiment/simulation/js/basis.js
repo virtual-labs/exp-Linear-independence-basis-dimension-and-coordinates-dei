@@ -33,3 +33,14 @@ function ck23n(){
 function reason(){
     document.getElementById('reason').innerHTML='If |B| &ne; 2, B is not basis of R<sup>2</sup>';
 }
+
+function exmp1(){
+   
+    document.getElementById('exmpRes1').style.display= "";
+    document.getElementById('eximg1').src='images/bex1.png';
+}
+function exmp2(){
+   
+    document.getElementById('exmpRes2').style.display= "";
+    document.getElementById('eximg2').src='images/bex2.png';
+}
