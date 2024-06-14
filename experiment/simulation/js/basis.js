@@ -37,7 +37,7 @@ function reason(){
 function exmp1(){
    
     document.getElementById('exmpRes1').style.display= "";
-    document.getElementById('eximg1').src='images/bex1.png';
+    document.getElementById('eximg1').src='images/bex1.PNG';
 }
 function exmp2(){
    
